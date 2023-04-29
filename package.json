@@ -5,8 +5,8 @@
 	"main": "src/server.ts",
 	"scripts": {
 		"1ts": "set TSC_NONPOLLING_WATCHER=1 & tsc --watch",
-		"run-playground": "node itocol ../itocol_playground",
-		"logs": "pm2 logs",
+		"run-playground": "INFO: run it from your project, like so: node ../[itocol_srv path]/itocol .",
+		"logs": "pm2 logs itocol",
 		"stop": "pm2 stop itocol",
 		"list": "pm2 list",
 		"delete": "pm2 delete itocol",
