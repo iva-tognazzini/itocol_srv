@@ -1,0 +1,46 @@
+{
+	"name": "itocol-ai-server",
+	"version": "0.0.1",
+	"description": "",
+	"main": "src/server.ts",
+	"scripts": {
+		"1ts": "set TSC_NONPOLLING_WATCHER=1 & tsc --watch",
+		"run-playground": "node itocol ../itocol_playground",
+		"logs": "pm2 logs",
+		"stop": "pm2 stop itocol",
+		"list": "pm2 list",
+		"delete": "pm2 delete itocol",
+		"flush": "pm2 flush",
+		"........": "",
+		"build-for-common-code": "tsc --build",
+		"lint": "eslint -c .eslintrc.js --ext .ts src",
+		"setup": "npm i"
+	},
+	"dependencies": {
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3",
+		"express": "^4.18.2",
+		"filk": "^1.8.52",
+		"joto": "^0.0.15",
+		"json-stream-stringify": "^3.0.1",
+		"openai": "^3.2.1",
+		"pm2": "^5.2.2",
+		"stri": "^1.0.293",
+		"ts-node": "^10.9.1",
+		"tsconfig-paths": "^4.2.0",
+		"typescript": "4.5.5"
+	},
+	"devDependencies": {
+		"@types/cors": "^2.8.12",
+		"@types/express": "^4.17.17",
+		"@types/jest": "^27.4.1",
+		"@typescript-eslint/eslint-plugin": "^4.33.0",
+		"@typescript-eslint/parser": "^4.33.0",
+		"eslint": "^7.32.0",
+		"eslint-config-prettier": "^6.13.0",
+		"eslint-plugin-jsdoc": "^39.3.6",
+		"eslint-plugin-prefer-arrow": "^1.2.3",
+		"eslint-plugin-prettier": "^3.1.4",
+		"ts-jest": "^27.1.3"
+	}
+}

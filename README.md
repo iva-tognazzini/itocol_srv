@@ -1,2 +1,1 @@
-# itocol_srv
-Server engine for itocol
+Server side of itocol

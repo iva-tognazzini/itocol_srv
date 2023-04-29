@@ -1,0 +1,30 @@
+{
+    "extends": "tslint:recommended",
+    "rules": {
+        "no-floating-promises": true,
+        "ban-ts-ignore": true,
+        "no-empty-interface": false,
+        "no-console": false,
+        "max-classes-per-file": false,
+        "no-empty": false,
+        "variable-name": false,
+        "no-debugger": false,
+        "prefer-for-of": false,
+        "one-variable-per-declaration": false,
+        "no-var-keyword": true,
+        "no-var-requires": false,
+        "no-string-literal": false,
+        "no-shadowed-variable": false,
+        "no-unused-expression": false,
+        "no-angle-bracket-type-assertion": true,
+        "no-trailing-whitespace": false,
+        "triple-equals": false,
+        "jsdoc-format": false,
+        "comment-format": false
+    },
+    "linterOptions": {
+        "exclude": [
+            "**/*.js"
+        ]
+    }
+}
